@@ -9,7 +9,7 @@
 
 ## Integrantes
 
-| Gonzales, Paz | Medrano, Augusto | Musuliotis, Juan | Ragone, Alejo | Sosa, Martin |
+| Gonzalez, M. Paz | Medrano, Augusto | Musuliotis, Juan | Ragone, Alejo | Sosa, Martin |
 
 ---
 
