@@ -10,7 +10,7 @@ patron_regex = r"([^,\n]+),([^,\n]+),([^,\n]+),([^,\n]+),([^,\n]+),([^,\n]+)"
 resultados = []
 
 if os.path.exists(ruta_archivo):
-    with open (ruta_archivo, mode='r', encoding='utf-8') as archivo:
+    with open(ruta_archivo, mode='r', encoding='utf-8') as archivo:
         contenido = archivo.read()
         coincidencias = re.finditer(patron_regex, contenido)
 
