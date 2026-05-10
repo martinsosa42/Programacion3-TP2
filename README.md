@@ -13,7 +13,7 @@
 | Ragone, Alejo | Ej. 1 y 2 (a, b) |
 | Sosa, Martin | Ej. 2 (c, d, e, f) |
 | Musuliotis, Juan | Ej. 3 y 4 |
-| Gonzales, M. Paz | Ej. 5 y 6 (parcial) |
+| Gonzalez, M. Paz | Ej. 5 y 6 (parcial) |
 | Medrano, Augusto | Ej. 6 (continuación) y 7 |
 
 ---
