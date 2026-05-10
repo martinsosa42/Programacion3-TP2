@@ -26,7 +26,5 @@ class Resultado:
         return (
             f"Temporada: {self.season} | Ronda: {self.round}\n"
             f"Carrera: {self.race_name} | Piloto: {self.driver_name}\n"
-            f"Escuderia: {self.constructor} | Posicion: {self.position}"
+            f"Escuderia: {self.constructor} | Posicion: {self.position}\n"
         )
-
-    
