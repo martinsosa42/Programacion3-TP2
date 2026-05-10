@@ -5,7 +5,6 @@
 **Año:** 2026 — 1er Cuatrimestre  
 **Fecha de entrega:** Lunes 11 de Mayo de 2026
 
----
 
 ## Integrantes
 
@@ -22,16 +21,25 @@
 ## Estructura del proyecto
 
 ```
-tp2/
+PROGRAMACION-3-TP2/
 ├── README.md
+├── poetry.lock
 ├── pyproject.toml
-├── f1_results.txt
-├── resultado.py               # Ejercicio 2 — Clase Resultado
-├── f1_analysis.py             # Ejercicio 2 — Procesamiento del archivo
-├── array_stack_ext.py         # Ejercicios 3 y 4 — ArrayStackExt
-├── array_stack_ext_client.py  # Ejercicio 5 — Cliente de ArrayStackExt
-├── array_queue_ext.py         # Ejercicio 6 — ArrayQueueExt
-└── array_queue_ext_client.py  # Ejercicio 7 — Cliente de ArrayQueueExt
+├── .gitignore
+├── ejercicio 2/
+│   ├── f1_results.csv
+│   ├── procesador_csv.py
+│   └── resultado.py
+├── ejercicio 3-4/
+│   ├── array_stack_ext_abstract.py
+│   └── array_stack_ext.py
+├── ejercicio5/
+│   └── array_stack_ext_client.py
+├── ejercicio6/
+│   ├── array_queue_ext_abstract.py
+│   └── array_queue_ext.py
+└── ejercicio7/
+    └── array_queue_ext_client.py
 ```
 
 ---
@@ -81,7 +89,7 @@ Creación del entorno virtual, inicialización del proyecto con Poetry/UV e inst
 
 ### Ejercicio 2 — Procesamiento de resultados de Fórmula 1
 
-Procesa el archivo `f1_results.txt` con los resultados de clasificación desde 1950 en adelante:
+Procesa el archivo `f1_results.csv` con los resultados de clasificación desde 1950 en adelante:
 
 - Parseo del archivo con una única expresión regular.
 - Definición de la clase `Resultado` para almacenar cada fila.
@@ -91,7 +99,8 @@ Procesa el archivo `f1_results.txt` con los resultados de clasificación desde 1
 
 **Ejecución:**
 ```bash
-python f1_analysis.py
+cd "ejercicio 2"
+python procesador_csv.py
 ```
 
 ### Ejercicio 3 — Clase `ArrayStackExt`
