@@ -1,5 +1,5 @@
 from data_structures import ArrayStack
-from array_stack_ext import ArrayStackExtAbstract
+from array_stack_ext_abstract import ArrayStackExtAbstract
 
 class ArrayStackExt[T](ArrayStackExtAbstract, ArrayStack):
     """Extensión de la clase ArrayStack que incorpora funcionalidades
