@@ -1,0 +1,4 @@
+#Anotacion Augusto:
+#Tuve un problema al intentar ejecutar el archivo para probar los metodos del ejercicio 6
+#No podia ejecutar el archivo con el comando 'python array_queue_ext_client.py' y tuve que marcar todo el path del arhivo desde la carpeta env
+#este es el comando que tuve que usar para poder ejecutarlo desde la consola '../.venv/Scripts/python array_queue_ext_client.py'
